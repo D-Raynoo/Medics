@@ -69,7 +69,7 @@ class login_signup extends StatelessWidget {
                       type: PageTransitionType.rightToLeft, child: login()));
             },
             style: ElevatedButton.styleFrom(
-              primary: Color.fromARGB(255, 3, 190, 150),
+              backgroundColor: Color.fromARGB(255, 3, 190, 150),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),
               ),
@@ -103,7 +103,7 @@ class login_signup extends StatelessWidget {
                       type: PageTransitionType.rightToLeft, child: register()));
             },
             style: ElevatedButton.styleFrom(
-              primary: Color.fromARGB(255, 255, 255, 255),
+              backgroundColor: Color.fromARGB(255, 255, 255, 255),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30),
               ),

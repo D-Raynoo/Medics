@@ -82,11 +82,9 @@ class login extends StatelessWidget {
             height: MediaQuery.of(context).size.height * 0.05,
             width: MediaQuery.of(context).size.width * 0.9,
             child: ElevatedButton(
-              onPressed: () {
-                // Perform verification or other actions here
-              },
+              onPressed: () {},
               style: ElevatedButton.styleFrom(
-                primary: Color.fromARGB(255, 3, 190, 150),
+                backgroundColor: const Color.fromARGB(255, 3, 190, 150),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30),
                 ),
